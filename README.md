@@ -1,31 +1,32 @@
 # Fall 2017 Interface Syllabus
  
 ## Description:
-Interface is a backend web development program. You will learn to communicate with the internet, write the business logic that drives web applications, and manipulate the servers that will ultimately deploy and deliver them. The course will be taught in JavaScript and NodeJS
+Interface is a **backend** web development program. You will learn to communicate with the internet, write the business logic that drives web applications, and manipulate the servers that will ultimately deploy and deliver them. The course will be taught in JavaScript and NodeJS
  
 ## Who This Program is For:
-Interface is targeted toward people with a preference for the logic side of programming, be it a first-year in CS1110 who is looking to translate their knowledge into functional services, a Wireframe grad who wants to learn server-side web development, or an entrepreneur who wants to improve their tech savviness. If you’re more interested in the inner-workings of a web application rather than the presentation, this is the class for you. 
-No programming experience is required, as all the code will be explained line-by-line, but understand that an unwillingness to learn coding outside of class will completely limit your ability to build off the course material in your recreational coding or career. 
+Interface is targeted toward people with a preference for the **logic** of programming, be it a **first-year in CS1110** who is looking to translate their knowledge into functional services, a **Wireframe grad** who wants to learn server-side web development, or an **entrepreneur** who wants to improve their tech savviness. If you’re more interested in the inner-workings of a web application rather than the presentation, this is the class for you. 
+
+**No programming experience** is required, as all the code will be explained line-by-line, but understand that an unwillingness to learn coding outside of class will completely limit your ability to build off the course material in your recreational coding or career. 
  
 ## Class Format:
 We will meet twice a week:
-Lecture: Tues 5:30-7pm in Launchpad 
-Introduce concepts and examples
-Workshop: Sun 11am-12:15pm in 17
-Reinforce skills and build projects
+* Lecture: Tues 5:30-7pm in Launchpad 
+  * Introduce concepts and examples
+* Workshop: Sun 11am-12:15pm in 17
+  * Reinforce skills and build projects
  
 ## Community:
 Participants will be integrated in three aspects of the HC community
-Interface participants: 
-1 on 1’s
-Study sessions
-Socials
-Other program participants: 
-Project collaborations
-Special interest groups (Tech, photo, sustainability, etc)
-HackCville
-Exposure to leadership
-Community dinners
+1. Interface participants: 
+  * 1 on 1’s
+  * Study sessions
+  * Socials
+2. Other program participants: 
+  * Project collaborations
+  * Special interest groups (Tech, photo, sustainability, etc)
+3. HackCville
+  * Exposure to leadership
+  * Community dinners
  
 ## Expectations
 * Attend all lectures and workshops
