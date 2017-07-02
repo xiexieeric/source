@@ -64,25 +64,25 @@ Description: Our web applications often receive communications from other comput
 Objectives: Introduce the basics of HTTP and data formats
 Workshop: Write a simple REST API that provides some simple dataset. 
 Websockets
-Self-Hosting Servers: Leveraging Your Router and Local Network
-Description: You’ve built a simple web server, and you want to show friends, family, and employers. You want to host it online, but your $7 monthly allowance is already being spent on Netflix. 
-Objectives: In this class you will learn how to hack the internet service and router that you already pay for, and use it to host the Node.js web server from the Raspberry Pi. 
-Workshop: Practice making HTTP requests via NodeJS. 
-No Servers? No Problem: Moving to the Cloud
-Description: Expecting hundreds of visitors but don’t own a mansion? Learn how even the absence of hardware can be solved with cloud computing. We will move our self-hosted website to the cloud, freeing it from our own hardware’s limitations. Useful for people who are scaling up their project at minimal cost. 
-Objectives: Understand the benefits of cloud computing, setting up an AWS account, and spinning up an EC2 micro instance. 
-Workshop: Move the web server to Amazon Web Services, and introduce the benefits of cloud computing. 
-ES6: JavaScript for the Future (Possible Elective?)
-Description: While JavaScript became more popular for web developers, it lacked many features compared to other programming languages. ES6 is the latest version of JavaScript, and incorporates features that make backend work much easier.  
-Objectives: Cover the most useful features of ES6, including Classes, arrow functions, and destructuring. 
-Workshop: Practice using ES6 and set up Babel for transpiling to vanilla JS. 
-Elective Topic: Electron/Databases/Web Technologies
-Workshop: Work on project.
-Crossover Topic: Data Science/Frontend
-Workshop: Work on project
-Siri, Alexa, and Cortana Oh My! : Developing for the Internet of Things
-Description: Voice is quickly becoming essential to the way we interact with the internet, and it’s easy to create apps for voice assistants like Amazon’s Alexa. 
-Objectives: Combine our knowledge of JavaScript and Node to write a simple Alexa skill. 
+8. **Self-Hosting Servers: Leveraging Your Router and Local Network**
+  * Description: You’ve built a simple web server, and you want to show friends, family, and employers. You want to host it online, but your $7 monthly allowance is already being spent on Netflix. 
+  * Objectives: In this class you will learn how to hack the internet service and router that you already pay for, and use it to host the Node.js web server from the Raspberry Pi. 
+  * Workshop: Practice making HTTP requests via NodeJS. 
+9. **No Servers? No Problem: Moving to the Cloud**
+  * Description: Expecting hundreds of visitors but don’t own a mansion? Learn how even the absence of hardware can be solved with cloud computing. We will move our self-hosted website to the cloud, freeing it from our own hardware’s limitations. Useful for people who are scaling up their project at minimal cost. 
+  * Objectives: Understand the benefits of cloud computing, setting up an AWS account, and spinning up an EC2 micro instance. 
+  * Workshop: Move the web server to Amazon Web Services, and introduce the benefits of cloud computing. 
+10. **ES6: JavaScript for the Future (Possible Elective?)**
+  * Description: While JavaScript became more popular for web developers, it lacked many features compared to other programming languages. ES6 is the latest version of JavaScript, and incorporates features that make backend work much easier.  
+  * Objectives: Cover the most useful features of ES6, including Classes, arrow functions, and destructuring. 
+  * Workshop: Practice using ES6 and set up Babel for transpiling to vanilla JS. 
+11. **Elective Topic: Electron/Databases/Web Technologies**
+  * Workshop: Work on project.
+12. **Crossover Topic: Data Science/Frontend**
+  * Workshop: Work on project
+13. **Siri, Alexa, and Cortana Oh My! : Developing for the Internet of Things** 
+  * Description: Voice is quickly becoming essential to the way we interact with the internet, and it’s easy to create apps for voice assistants like Amazon’s Alexa. 
+  * Objectives: Combine our knowledge of JavaScript and Node to write a simple Alexa skill. 
  
  
  
