@@ -37,34 +37,33 @@ Community dinners
   * Consumes at least 1 web API
   * Interface project may be submitted to another class, but a class project may not be your Interface project
  
-Class Schedule:
-Here is an overview of the topics that will be covered, and the general order in which they will be presented. 
-Intro to Bash and Git
-Description: Anyone working in tech can benefit from knowing a little bash and git. Rather than copying strange hieroglyphics from a tutorial, find out how the command line works and why you should incorporate it into your workflow. 
-Objectives: Introduce common command line functions like cd, ls, mkdir, git, and their relevance in software development and project management. 
-Workshop: Directory navigation in bash. Git workflow practice. 
-JavaScript: Part 1
-Description: JavaScript will be our main language this semester, and it is important for you to be comfortable with it. 
-Objectives: Familiarize yourself with JavaScript syntax, and learn the basics features like string manipulation, arithmetic, and arrays. 
-Workshop: Practice JS on FreeCodeCamp.
-JavaScript: Part 2
-Description: We will continue to practice JS this week while covering intermediate topics such as functions, classes, and JSON. 
-Objectives: Become familiar with object oriented programming in JS. 
-Workshop: Practice JS on Codecademy.
-Node.js: More than Just a Frontend Language
-Description: Node.js has revolutionized web development by allowing Javascript to be run on servers, just like Python or Java. It’s fast, and has a huge community of developers. 
-Objectives: Use Node.js and Express.js to write a web server.  
-Workshop: Work on website examples using Express. 
-Understanding Async
-Description: Most HTTP requests that we make with JavaScript will be asynchronous, which surprises beginners. We will see how to make use of promises and callback functions to handle async methods. 
-Objectives: Explain the meaning of async functions, and how to handle them using JS features. 
-Workshop: Write a web scraper using JavaScript and Node. 
-How Computers Talk to Each Other: HTTP and REST APIs
-Description: Our web applications often receive communications from other computers on the internet, which is handled by the backend code. Thankfully, there are frameworks that make it easy to handle those requests.
-Objectives: Introduce the basics of HTTP and data formats
-Workshop: Write a simple REST API that provides some simple dataset.  
-Websockets
-
+## Class Schedule:
+Here is an overview of the topics that will be covered, and the general order in which they will be presented.  
+1. **Intro to Bash and Git**  
+  * Description: Anyone working in tech can benefit from knowing a little bash and git. Rather than copying strange hieroglyphics from a tutorial, find out how the command line works and why you should incorporate it into your workflow.  
+  * Objectives: Introduce common command line functions like cd, ls, mkdir, git, and their relevance in software development and project management.  
+  * Workshop: Directory navigation in bash. Git workflow practice.  
+2. **JavaScript: Part 1**
+  * Description: JavaScript will be our main language this semester, and it is important for you to be comfortable with it.  
+  * Objectives: Familiarize yourself with JavaScript syntax, and learn the basics features like string manipulation, arithmetic, and arrays.   
+  * Workshop: Practice JS on FreeCodeCamp.  
+3. **JavaScript: Part 2**
+  * Description: We will continue to practice JS this week while covering intermediate topics such as functions, classes, and JSON.   
+  * Objectives: Become familiar with object oriented programming in JS.   
+  * Workshop: Practice JS on Codecademy.  
+4. **Node.js: More than Just a Frontend Language**
+  * Description: Node.js has revolutionized web development by allowing Javascript to be run on servers, just like Python or Java. It’s fast, and has a huge community of developers.   
+  * Objectives: Use Node.js and Express.js to write a web server.    
+  * Workshop: Work on website examples using Express.   
+5. **Understanding Async**
+  * Description: Most HTTP requests that we make with JavaScript will be asynchronous, which surprises beginners. We will see how to make use of promises and callback functions to handle async methods.   
+  * Objectives: Explain the meaning of async functions, and how to handle them using JS features.   
+  * Workshop: Write a web scraper using JavaScript and Node.   
+6. **How Computers Talk to Each Other: HTTP and REST APIs**
+  * Description: Our web applications often receive communications from other computers on the internet, which is handled by the backend code. Thankfully, there are frameworks that make it easy to handle those requests.  
+  * Objectives: Introduce the basics of HTTP and data formats  
+  * Workshop: Write a simple REST API that provides some simple dataset.   
+7. **Websockets**
 8. **Self-Hosting Servers: Leveraging Your Router and Local Network**
   * Description: You’ve built a simple web server, and you want to show friends, family, and employers. You want to host it online, but your $7 monthly allowance is already being spent on Netflix. 
   * Objectives: In this class you will learn how to hack the internet service and router that you already pay for, and use it to host the Node.js web server from the Raspberry Pi. 
