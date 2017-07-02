@@ -63,7 +63,8 @@ How Computers Talk to Each Other: HTTP and REST APIs
 Description: Our web applications often receive communications from other computers on the internet, which is handled by the backend code. Thankfully, there are frameworks that make it easy to handle those requests.
 Objectives: Introduce the basics of HTTP and data formats
 Workshop: Write a simple REST API that provides some simple dataset.  
-Websockets  
+Websockets
+
 8. **Self-Hosting Servers: Leveraging Your Router and Local Network**
   * Description: You’ve built a simple web server, and you want to show friends, family, and employers. You want to host it online, but your $7 monthly allowance is already being spent on Netflix. 
   * Objectives: In this class you will learn how to hack the internet service and router that you already pay for, and use it to host the Node.js web server from the Raspberry Pi. 
