@@ -64,7 +64,10 @@ Here is an overview of the topics that will be covered, and the general order in
   * Description: Our web applications often receive communications from other computers on the internet, which is handled by the backend code. Thankfully, there are frameworks that make it easy to handle those requests.  
   * Objectives: Introduce the basics of HTTP and data formats  
   * Workshop: Write a simple REST API that provides some simple dataset.   
-7. **Websockets**
+7. **Web Sockets: Interactive Communication**
+  * Description: You've set up a web server, but you want communication to be a two-way street. How can clients send information to the server on top of receiving data from the server? The answer--web sockets!
+  * Objectives: Become familiar with web sockets and Socket.io.
+  * Workshop: Write a chat application using Node.js, Socket.io, and Javascript.
 8. **Self-Hosting Servers: Leveraging Your Router and Local Network**
   * Description: You’ve built a simple web server, and you want to show friends, family, and employers. You want to host it online, but your $7 monthly allowance is already being spent on Netflix. 
   * Objectives: In this class you will learn how to hack the internet service and router that you already pay for, and use it to host the Node.js web server from the Raspberry Pi. 
