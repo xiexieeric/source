@@ -1,10 +1,10 @@
-# Fall 2017 404 Syllabus
+# Fall 2017 Source Syllabus
  
 ## Description:
-404 is a **backend** web development program. You will learn to communicate with the internet, write the business logic that drives web applications, and manipulate the servers that will ultimately deploy and deliver them. The course will be taught in JavaScript and NodeJS
+Source is a **backend** web development program. You will learn to communicate with the internet, write the business logic that drives web applications, and manipulate the servers that will ultimately deploy and deliver them. The course will be taught in JavaScript and NodeJS
  
 ## Who This Program is For:
-404 is targeted toward people with a preference for the **logic** of programming, be it a **first-year in CS1110** who is looking to translate their knowledge into functional services, a **Wireframe grad** who wants to learn server-side web development, or an **entrepreneur** who wants to improve their tech savviness. If you’re more interested in the inner-workings of a web application rather than the presentation, this is the class for you. 
+Source is targeted toward people with a preference for the **logic** of programming, be it a **first-year in CS1110** who is looking to translate their knowledge into functional services, a **Wireframe grad** who wants to learn server-side web development, or an **entrepreneur** who wants to improve their tech savviness. If you’re more interested in the inner-workings of a web application rather than the presentation, this is the class for you. 
 
 **No programming experience** is required, as all the code will be explained line-by-line, but understand that an unwillingness to learn coding outside of class will completely limit your ability to build off the course material in your recreational coding or career. 
  
@@ -17,7 +17,7 @@ We will meet twice a week:
  
 ## Community:
 Participants will be integrated in three aspects of the HC community
-1. 404 participants: 
+1. Source participants: 
   * 1 on 1’s
   * Study sessions
   * Socials
@@ -32,11 +32,11 @@ Participants will be integrated in three aspects of the HC community
 * Attend all lectures and workshops
   * Absences beyond 5 will result in failure to complete the program
 * Attend a community event every week for the first 3 weeks
-* Grab coffee with another 404 student
+* Grab coffee with another Source student
 * Project:
   * Due at the end of the semester
   * Consumes at least 1 web API
-  * 404 project may be submitted to another class, but a class project may not be your 404 project
+  * Source project may be submitted to another class, but a class project may not be your Source project
  
 ## Class Schedule:
 Here is an overview of the topics that will be covered, and the general order in which they will be presented.  
