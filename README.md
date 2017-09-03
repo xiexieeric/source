@@ -10,7 +10,7 @@ Source is targeted toward people with a preference for the **logic** of programm
  
 ## Class Format:
 We will meet twice a week:
-* Lecture: Tues 5:30-7pm in Launchpad 
+* Lecture: Tues 6:45-8:15pm in Launchpad 
   * Introduce concepts and examples
 * Workshop: Sun 11am-12:15pm in 17
   * Reinforce skills and build projects
