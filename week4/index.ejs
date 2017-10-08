@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <title>Twilio Client Test</title>
+</head>
+<body>
+    <!-- display call status in this paragraph tag -->
+    <p>Awaiting incoming call...</p>
+    <button id="hangup">Hang Up</button>
+ 
+    <!-- include the Twilio Client JavaScript SDK -->
+    <script src="//static.twilio.com/libs/twiliojs/1.1/twilio.min.js"></script>
+ 
+    <!-- include jQuery to make DOM manipulation and event handling nicer -->
+    <script src="//code.jquery.com/jquery-1.9.1.min.js"></script>
+ 
+    <!-- accept incoming calls to this client -->
+    <script type="text/javascript">
+        // Set up the Twilio "Device" (think of it as the browser's phone) with
+        // our server-generated capability token, which will be inserted by the
+        // EJS template system:
+        Twilio.Device.setup('<%= token %>');
+ 
+        // Register an event handler to be called when there is an incoming
+        // call:
+        Twilio.Device.incoming(function(connection) {
+            //For demo purposed, automatically accept the call
+            connection.accept();
+            $('p').html('Call in progress...');
+        });
+ 
+        // Register an event handler for when a call ends for any reason
+        Twilio.Device.disconnect(function(connection) {
+            $('p').html('Awaiting incoming call...');
+        });
+ 
+        // Add a click event for the button, which will hang up the current
+        // call when clicked:
+        $('#hangup').click(function() {
+            Twilio.Device.disconnectAll();
+        });
+    </script>
+</body>
+</html>
