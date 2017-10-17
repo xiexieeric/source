@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+    <script src="/socket.io/socket.io.js"></script>
+
+    <style>
+        #chats {
+            position: absolute;
+            width: 90%;
+            height: 70%;
+            left: 5%;
+            top: 10%;
+            border: solid 3px;
+            resize: none;
+            text-align: center;
+            font-size: 36px;
+        }
+        #chatBox {
+            position: absolute;
+            width: 90%;
+            height: 10%;
+            bottom: 5%;
+            left: 5%;
+            border: solid 3px;
+            text-align: center;
+            font-size: 36px;
+        }
+        #title {
+            margin: 0 auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title">Erik's awesome chat application template</h1>
+    <textarea readonly id="chats">This is the start of the chat!</textarea>
+    <input id="chatBox"></input>
+
+    <script>
+        var socket = io();
+        socket.on('news', function (data) {
+            console.log(data);
+            socket.emit('some event', {my: 'data'});
+        });
+        
+        function addChat(chat) {
+            var chatField = document.getElementById("chats");
+            chatField.value += "\n" + chat;
+        }
+    </script>
+</body>
+</html>
