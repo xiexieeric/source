@@ -12,7 +12,7 @@ app.get('/', function(req, res) {
 });
 
 io.on('connection', function (socket) {
-    socket.on('some event', function (data) {
-        console.log(data);
+    socket.on('new chat', function (data) {
+        socket.broadcast.emit('new chat', data);
     });
 });
