@@ -12,6 +12,10 @@ app.get('/', function(req, res) {
 });
 
 io.on('connection', function (socket) {
+    socket.on('new chat', function(data) {
+      console.log(data);
+      socket.broadcast.emit('new chat', data);
+    });
     ///////////////////////////////////////////////////
     //
     // How should the server handle new chats?
