@@ -38,12 +38,13 @@
 
     <script>
         var socket = io();
+        
+        //////////////////////////////////////////////////
+        //
+        // Handle other people chatting you!
+        //
+        //////////////////////////////////////////////////
 
-        socket.on('new chat', function (data) {
-            console.log(data);
-            var chat = data.chat;
-            addChat(chat);
-        });
         
         function addChat(chat) {
             var chatField = document.getElementById("chats");
@@ -56,8 +57,11 @@
                 var chat = document.getElementById("chatBox");
                 if (chat.value == "") return;
             
-                addChat(chat.value);
-                socket.emit("new chat", {chat: chat.value});
+                ///////////////////////////////////////
+                //
+                // What happens when we press enter?
+                //
+                ///////////////////////////////////////
 
                 chat.value = "";
             }
