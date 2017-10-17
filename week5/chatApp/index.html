@@ -34,7 +34,7 @@
 <body>
     <h1 id="title">Erik's awesome chat application template</h1>
     <textarea readonly id="chats">This is the start of the chat!</textarea>
-    <input id="chatBox"></input>
+    <input id="chatBox" placeholder="Send a chat!" onsubmit="addChat(hi)"></input>
 
     <script>
         var socket = io();
@@ -43,9 +43,21 @@
             socket.emit('some event', {my: 'data'});
         });
         
-        function addChat(chat) {
+        function addChat() {
+            var chat = document.getElementById("chatBox");
+            if (chat.value == "") return;
+            
             var chatField = document.getElementById("chats");
-            chatField.value += "\n" + chat;
+            chatField.value += "\n" + chat.value;
+
+            chat.value = "";
+        }
+
+        document.getElementById("chatBox").onkeypress = function(e) {
+            var keyCode = e.keyCode || e.which;
+            if (keyCode == '13') {
+                addChat();
+            }
         }
     </script>
 </body>
